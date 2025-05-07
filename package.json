@@ -1,8 +1,14 @@
 {
   "name": "@lbfrancisco/biome-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Biome config for next, node and react.",
-  "main": "index.js",
+  "main": "biome.json",
+  "exports": {
+    ".": "./biome.json"
+  },
+  "files": [
+    "biome.json"
+  ],
   "scripts": {
     "format": "biome format . --write",
     "lint": "biome lint .",
@@ -15,5 +21,6 @@
   "license": "MIT",
   "dependencies": {
     "@biomejs/biome": "^1.9.4"
-  }
+  },
+  "type": "module"
 }

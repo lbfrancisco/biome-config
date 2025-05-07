@@ -1,9 +1,5 @@
 module.exports = {
 	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"extends": [
-		"plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended"
-	],
 	"vcs": {
 		"enabled": false,
 		"clientKind": "git",

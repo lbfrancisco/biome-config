@@ -4,7 +4,9 @@
   "description": "A Biome config for next, node and react.",
   "main": "index.js",
   "scripts": {
-    "": "echo \"Error: no test specified\" && exit 1"
+    "format": "biome format . --write",
+    "lint": "biome lint .",
+    "lint:fix": "npm run lint -- --write"
   },
   "author": "Lucas Francisco (@lbfrancisco)",
   "publishConfig": {
